@@ -1,0 +1,32 @@
+void push(int data){
+    if(top==max-1){
+        printf("Stack ism Full);
+        return;
+    }else{
+        top+=1;
+        stack_arr[top]=data;
+    }
+}
+
+int pop(){
+    int value;
+    if(top==-1){
+        printf(Stack is empty); 
+        return;
+    }else{
+        top+=1;
+        value=arr[top]
+    }
+    return value;
+}
+
+void display(){
+    if(top==-1){
+        printf(Stack is empty); 
+        return;
+    }else{
+        for(int i=top; i>=0; i++){
+            printf("%d",arr[i]);
+        }
+    }
+}
