@@ -20,3 +20,4 @@ public class casting {
         System.out.println("(int)f="+i);
     }
 }
+                     
